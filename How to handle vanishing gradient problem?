@@ -1,0 +1,7 @@
+How to handle vanishing gradient problem?
+=>1)Reduce model complexity-Use a shallow neural network-Not much applicable method
+  2)Use Relu activation function-derivative either 0 or 1-problem-dying relu(when derivative is 0)
+  3)Proper weight initialization-not to be done randomly
+  4)Batch Normalization-It is a type of layer to be discussed in future.
+  5)Using a residual network-It is a special building block which can be used with our ann,to be discussed in future.
+    In CNN,we will build a ResNET which is build using a Residual Network.
