@@ -1,0 +1,2 @@
+It is like VGP,but is more observable in RNN.
+It is opposite to VGP,if gradient is very large then the weight will become very large,model will behave randomly and our loss will not get reduced.
