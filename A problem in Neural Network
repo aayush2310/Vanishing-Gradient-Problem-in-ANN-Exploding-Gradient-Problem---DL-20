@@ -1,0 +1,10 @@
+A problem in DL.
+In ML,the vanishing gradient problem is encountered when training artificial neural networks with gradient based learning methods and backpropagation.In such methods,
+during each iteration of training each of the neural networks's weights receives an update proportional to the partial derivative of the error function with respect to 
+the current weight.The problem is that in some cases,the gradient will be vanishingly small,effectively preventing the weight from changing its value,In the worst case it 
+may completely stop the neural network from further training.It is observed only in Deep Neural Networks having many layers.More observable if activation function is 
+sigmoid or tanh.
+
+How to recognize VanishingGradient Problem?
+=>1)See the loss,if it is not changing much in different epochs
+  2)Plot the graph of weights,if in different epochs it is not changing then VGP
